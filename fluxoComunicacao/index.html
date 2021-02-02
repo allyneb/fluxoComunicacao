@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h3 class="text-center">
+          Curso Introdutório para Apoiadores<br />
+
+        </h3>
+      </div>
+    </header>
+    <div class="container">
+
+      <p class="text-center mb-5">Clique nas palavras abaixo para acessar sua descrição</p>
+
+      <img
+        id="vegetables"
+        src="images/1.jpg"
+        
+        usemap="#veg"
+      />
+      <map id="veg_map" name="veg">
+        <area
+          id="vinculo"
+          alt=""
+          title=""
+          href="#"
+          shape="rect"
+          coords="35,34,207,92"
+          style="outline: none"
+          target="_self"
+          data-bs-toggle="modal"
+          data-bs-target="#vinculoModal"
+        />
+        <area
+          id="colocarse"
+          alt=""
+          title=""
+          href="#"
+          shape="rect"
+          coords="262,32,434,90"
+          style="outline: none"
+          target="_self"
+          data-bs-toggle="modal"
+          data-bs-target="#colocarseModal"
+        />
+        <area
+          id="lugar"
+          alt=""
+          title=""
+          href="#"
+          shape="rect"
+          coords="493,33,665,91"
+          style="outline: none"
+          target="_self"
+          data-bs-toggle="modal"
+          data-bs-target="#lugarModal"
+        />
+        <area
+          id="analise"
+          alt=""
+          title=""
+          href="#"
+          shape="rect"
+          coords="721,30,893,88"
+          style="outline: none"
+          target="_self"
+          data-bs-toggle="modal"
+          data-bs-target="#analiseModal"
+        />
+        <area
+          id="demandas"
+          alt=""
+          title=""
+          href="#"
+          shape="rect"
+          coords="945,30,1117,88"
+          style="outline: none"
+          target="_self"
+          data-bs-toggle="modal"
+          data-bs-target="#demandasModal"
+        />
+                 
+      </map>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="vinculoModal"
+      tabindex="-1"
+      aria-labelledby="vinculoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="vinculoModalLabel">Quem?</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+          Chamamos de Emissor da mensagem.  
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="colocarseModal"
+      tabindex="-1"
+      aria-labelledby="colocarseModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="colocarseModalLabel">
+              Diz o quê?
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+           É a própria Mensagem a ser enviada.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="lugarModal"
+      tabindex="-1"
+      aria-labelledby="lugarModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="lugarModalLabel">
+              Em que canal?
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Meio de comunicação pelo qual é veiculada a mensagem.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="analiseModal"
+      tabindex="-1"
+      aria-labelledby="analiseModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="analiseModalLabel">
+              Para quem?
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Receptor ou Destinatário da mensagem.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="demandasModal"
+      tabindex="-1"
+      aria-labelledby="demandasModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="demandasModalLabel">
+              Com que efeito?
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            A grande preocupação desse modelo linear era justamente que efeitos uma mensagem enviada por um emissor poderia provocar no receptor, em termos de mudança de comportamento social.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
